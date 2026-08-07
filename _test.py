@@ -10,8 +10,8 @@ def cube(n):
     return n ** 3
 
 # Function to test fifth power
-def fourth_power(n):
-    return n ** 4
+def fifth_power(n):
+    return n ** 5
 
 # Testing the square function
 def test_square():
@@ -25,8 +25,8 @@ def test_cube():
 
 # Testing the fifth power function
 def test_fifth_power():
-    assert fourth_power(2) == 32, "Test Failed: Fourth power of 2 should be 16"
-    assert fourth_power(3) == 243, "Test Failed: Fourth power of 3 should be 81"
+    assert fifth_power(2) == 32, "Test Failed: Fifth power of 2 should be 16"
+    assert fifth_power(3) == 243, "Test Failed: Fifth power of 3 should be 81"
 
 # Test for invalid input
 def test_invalid_input():
